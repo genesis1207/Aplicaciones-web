@@ -1,0 +1,70 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://fondosmil.com/fondo/12577.jpg'); 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #8ce1f9;
+    max-width: 530px;
+    margin: 40px auto;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+h1 {
+    color: #160eb5;
+    font-size: 28px;
+    margin-bottom: 36px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #05071d;
+    margin-bottom: 8x;
+    text-align:left;
+    margin-left: 44px;
+    
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+    width: 90%;
+    padding: 11px;
+    border: 2px solid #104ac8;
+    border-radius: 15px;
+    
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 30px;
+    color: #391035;
+    font-weight: normal;
+}
+
+button {
+    background-color: #09294b;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #ec1010;
+}
+
