@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Reporte</title>
+    <link rel="stylesheet" href="generarestilos.css">
+</head>
+<body>
+     <!--menu-->
+     <div class="menu">
+        <div class="header">
+            <h1>Gestión de inventario de equipos informáticos</h1>
+            <div class="navegador">
+                <ul>
+                    <li><a href="../inicio/index.html">Inicio</a></li>
+                    <li><a href="../generar reporte/generar.html">generar reporte</a></li>
+                    <li><a href="../agregar equipos/agregar.html">agregar equipos</a></li>
+                    <li><a href="../../inicio/index.html">cerrar seccion </a></li>
+                </ul>
+            </div>
+        </div>
+    <div class="container">
+        <h1>Generar Reporte</h1>
+        <form id="reportForm">
+            <div class="form-group">
+                <label for="equipmentID">ID del Equipo:</label>
+                <input type="text" id="equipmentID" name="equipmentID" required>
+            </div>
+            <div class="form-group">
+                <label for="reportType">Tipo de Reporte:</label>
+                <select id="reportType" name="reportType">
+                    <option value="mantenimiento">Mantenimiento</option>
+                    <option value="estado">Estado</option>
+                    <option value="asignacion">Asignación</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="reportDescription">Descripción del Reporte:</label>
+                <textarea id="reportDescription" name="reportDescription" rows="4"></textarea>
+            </div>
+            <button type="submit">Generar Reporte</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+
+    <!--Pie de pagina-->
+    <div class="footer">
+        <div class="break">
+            <div class="direccion">
+                <h4>Dirección:</h4>
+                <p>Av. Circunvalacion, Manta</p>
+            </div>
+            <div class="contacto">
+                <h4>Contactos:</h4>
+                <p>Tel: +593 123456789</p>
+                <p>Email: info@uleam.live.edu.ec</p>
+            </div>
+            <div class="sobre">
+                <h4>Sobre nosotros:</h4>
+                <p>Somos la Universidad Laica Eloy Alfaro de Manabí, contamos con servico para la  gestion de inventario informatico</p>
+            </div>
+        </div>
+        <div class="derechos">
+            <h4>Universidad Laica Eloy Alfaro de Manabí| Todos los derechos reservados ©</h4>
+        </div>
+    </div>
+</body>
+</html>

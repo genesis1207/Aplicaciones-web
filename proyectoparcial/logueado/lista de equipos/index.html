@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Equipos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--menu-->
+  <div class="menu">
+    <div class="header">
+        <h1>Gestión de inventario de equipos informáticos</h1>
+        <div class="navegador">
+            <ul>
+                <li><a href="../inicio/index.html">Inicio</a></li>
+                <li><a href="../generar reporte/generar.html">generar reporte</a></li>
+                <li><a href="../agregar equipos/agregar.html">agregar equipos</a></li>
+                <li><a href="../lista de equipos/index.html">lista  de equipos</a></li>
+                <li><a href="../../inicio/index.html">cerrar sesion </a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <h1>Lista de Equipos</h1>
+    <input type="text" id="searchInput" placeholder="Buscar equipos...">
+    <table id="equipmentTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Número de Serie</th>
+                <th>Estado</th>
+                <th>Ubicación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se cargarán los datos dinámicamente con JavaScript -->
+        </tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>

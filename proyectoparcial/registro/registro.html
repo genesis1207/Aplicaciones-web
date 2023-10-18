@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="registroestilos.css">
+</head>
+<body>
+
+        <!--menu-->
+        <div class="menu">
+            <div class="header">
+                <h1>Gestión de inventario de equipos informáticos</h1>
+                <div class="navegador">
+                    <ul>
+                    <li><a href="../inicio/index.html">Inicio</a></li>
+                    <li><a href="../inicio seccion/seccion.html">inicio sesion</a></li>
+                    <li><a href="../registro/registro.html">registro</a></li>
+                    </ul>
+                </div>
+            </div>
+              
+    <form class="form-register" action= "../logueado/Inicio/index.html" method= "get" name= "validación" onsubmit= "return validar()">
+        <h4><center>Registrarse</center></h4>
+        <input class="controls"
+        type="text"
+        name="Nombres"
+        id="nombre"
+        placeholder="Ingrese sus nombres">
+
+        <input class="controls"
+        type="text"
+        name="Apellido"
+        id="apellido"
+        placeholder="Ingrese sus Apellidos">
+
+        <input class="controls"
+        type="telefono"
+        name="telefono"
+        id="telefono"
+        placeholder="Ingrese su telefono personal " maxlength="10">
+
+        <input class="controls"
+        type="email"
+        name="correo"
+        id="correo"
+        placeholder="Ingrese su correo" autofocus required>
+
+        <input class="controls"
+        type="password"
+        name="contra"
+        id="pass1"
+        placeholder="ingrese su contraseña">
+
+
+        <input class="controls"
+        type="password"
+        name="contra"
+        id="pass2"
+        placeholder="Vuelva ingresar la contraseña">
+
+        <input type="submit" value="Enviar"> 
+
+    </form>
+
+    <!--Pie de pagina-->
+ <div class="footer">
+    <div class="break">
+        <div class="direccion">
+            <h4>Dirección:</h4>
+            <p>Av. Circunvalacion, Manta</p>
+        </div>
+        <div class="contacto">
+            <h4>Contactos:</h4>
+            <p>Tel: +593 123456789</p>
+            <p>Email: info@uleam.live.edu.ec</p>
+        </div>
+        <div class="sobre">
+            <h4>Sobre nosotros:</h4>
+            <p>Somos la Universidad Laica Eloy Alfaro de Manabí, contamos con servico para la  gestion de inventario informatico</p>
+        </div>
+    </div>
+    <div class="derechos">
+        <h4>Universidad Laica Eloy Alfaro de Manabí| Todos los derechos reservados ©</h4>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+ 

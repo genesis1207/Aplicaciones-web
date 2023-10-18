@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Equipo</title>
+    <link rel="stylesheet" href="agregarestilos.css">
+</head>
+
+<body>
+  <!--menu-->
+    <div class="menu">
+        <div class="header">
+            <h1>Gestión de inventario de equipos informáticos</h1>
+            <div class="navegador">
+                <ul>
+                    <li><a href="../inicio/index.html">Inicio</a></li>
+                    <li><a href="../generar reporte/generar.html">generar reporte</a></li>
+                    <li><a href="../agregar equipos/agregar.html">agregar equipos</a></li>
+                    <li><a href="../../inicio/index.html">cerrar seccion </a></li>
+                </ul>
+            </div>
+        </div>
+        <h2>Gestión de inventario ULEAM</h2>
+
+  <!---->
+    <div class="container">
+        <h1>Agregar Equipo</h1>
+        <form id="equipmentForm">
+            <div class="form-group">
+                <label for="name">Nombre del equipo:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="serialNumber">Número de serie:</label>
+                <input type="text" id="serialNumber" name="serialNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Descripción:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="manufacturer">Fabricante:</label>
+                <input type="text" id="manufacturer" name="manufacturer">
+            </div>
+            <div class="form-group">
+                <label for="model">Modelo:</label>
+                <input type="text" id="model" name="model">
+            </div>
+            <div class="form-group">
+                <label for="purchaseDate">Fecha de Compra:</label>
+                <input type="date" id="purchaseDate" name="purchaseDate">
+            </div>
+            <button type="submit">Agregar Equipo</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+
+     <!--Pie de pagina-->
+     <div class="footer">
+        <div class="break">
+            <div class="direccion">
+                <h4>Dirección:</h4>
+                <p>Av. Circunvalacion, Manta</p>
+            </div>
+            <div class="contacto">
+                <h4>Contactos:</h4>
+                <p>Tel: +593 123456789</p>
+                <p>Email: info@uleam.live.edu.ec</p>
+            </div>
+            <div class="sobre">
+                <h4>Sobre nosotros:</h4>
+                <p>Somos la Universidad Laica Eloy Alfaro de Manabí, contamos con servico para la  gestion de inventario informatico</p>
+            </div>
+        </div>
+        <div class="derechos">
+            <h4>Universidad Laica Eloy Alfaro de Manabí| Todos los derechos reservados ©</h4>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
